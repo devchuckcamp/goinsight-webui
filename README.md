@@ -6,7 +6,7 @@ See `docs/expectations.md` for a short note on what to expect when running the a
 
 > **Backend Required**: This frontend connects to the [GoInsight Backend API](https://github.com/devchuckcamp/goinsight) - a Go-based AI-powered feedback analytics service. Make sure to set up and run the backend before using this frontend.
 
-## ��� Features
+## ✨ Features
 
 - **Natural Language Query Interface**: Ask questions in plain English about your feedback data
 - **Rich Data Visualization**: Interactive tables with sortable columns, color-coded chips, and detailed tooltips
@@ -17,7 +17,7 @@ See `docs/expectations.md` for a short note on what to expect when running the a
 - **Responsive Design**: Works seamlessly across desktop and tablet devices
 - **SCSS Styling**: Customizable styling with SCSS modules and MUI theming
 
-## ���️ Technology Stack
+## 🧰 Technology Stack
 
 - **React 18** with TypeScript
 - **Vite** - Fast build tool and dev server
@@ -39,12 +39,12 @@ See `docs/expectations.md` for a short note on what to expect when running the a
   ```
 - Backend should be running at `http://localhost:8080` (or configure custom URL in `.env`)
 
-## ��� Getting Started
+## 🚀 Getting Started
 
 ### 1. Clone and Install
 
 ```bash
-cd goinsight-web
+cd goinsight-webui
 npm install
 ```
 
@@ -89,7 +89,7 @@ The production build will be in the `dist/` directory.
 npm run preview
 ```
 
-## ��� Project Structure
+## 📁 Project Structure
 
 ```
 goinsight-webui/
@@ -124,7 +124,7 @@ goinsight-webui/
 └── vite.config.ts
 ```
 
-## ���️ Architecture Overview
+## 🏗️ Architecture Overview
 
 ### State Management
 
@@ -154,7 +154,7 @@ App.tsx
         └── ActionsAccordion
 ```
 
-## ��� Styling Approach
+## 🎨 Styling Approach
 
 The application combines **Material UI** theming with **SCSS** for maximum flexibility:
 
@@ -163,14 +163,14 @@ The application combines **Material UI** theming with **SCSS** for maximum flexi
 - **SCSS Variables**: Spacing, colors, breakpoints
 - **SCSS Utilities**: Layout helpers, spacing utilities
 
-## ��� Available Scripts
+## ⚙️ Available Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
 
-## ��� API Integration
+## 🔌 API Integration
 
 The frontend expects the following API endpoint:
 
@@ -247,7 +247,7 @@ This frontend is designed to work seamlessly with the [GoInsight Backend API](ht
 - [ ] Real-time updates via WebSockets
 - [ ] Multi-language support
 
-## ��� Code Quality
+## ✅ Code Quality
 
 This project demonstrates senior-level React engineering practices:
 
@@ -258,14 +258,14 @@ This project demonstrates senior-level React engineering practices:
 - **Performance**: Optimized re-renders, memoization where appropriate
 - **Accessibility**: Semantic HTML, ARIA labels, keyboard navigation
 
-## ��� Contributing
+## 🤝 Contributing
 
 1. Follow the existing code style and patterns
 2. Use TypeScript strictly (no `any` types)
 3. Write descriptive commit messages
 4. Test thoroughly before submitting
 
-## ��� License
+## 📜 License
 
 MIT License - see LICENSE file for details
 
