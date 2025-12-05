@@ -2,6 +2,8 @@
 
 A React + TypeScript frontend application that connects to the [**GoInsight**](https://github.com/devchuckcamp/goinsight) feedback analytics API. This application provides an intuitive interface for asking natural language questions about feedback data and visualizing AI-powered insights.
 
+See `docs/expectations.md` for a short note on what to expect when running the app locally (prerequisites, env vars, common pitfalls).
+
 > **Backend Required**: This frontend connects to the [GoInsight Backend API](https://github.com/devchuckcamp/goinsight) - a Go-based AI-powered feedback analytics service. Make sure to set up and run the backend before using this frontend.
 
 ## ��� Features
